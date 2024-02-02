@@ -1,0 +1,100 @@
+body {
+    background: url(https://static.vecteezy.com/system/resources/previews/000/208/942/non_2x/vector-beautiful-camping-illustration.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 5% auto 0;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.search {
+    width: 100% !important;
+    align-items: center;
+    display: flex;
+    justify-content: space-between !important;
+    padding: 20px;
+}
+
+.search img {
+    transform: scale(0.7);
+    border-radius: 50% !important;
+}
+
+p {
+    font-weight: 600;
+    margin: 0 !important;
+}
+
+.search input {
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    width: 70%;
+    outline: 0;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    color: white;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.info .images{
+    display: flex;
+    justify-content: center;
+}
+
+.images img {
+    width: 120px;
+}
+
+.info h1 {
+    font-weight: 700 !important;
+    font-size: 90px;
+}
+
+.more {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.col img {
+    width: 30px;
+    margin: 20px;
+}
+
+#button {
+    cursor: pointer;
+}
+
+.info {
+    display: none;
+    transition: ease 1s;
+}
+
+.invalid {
+    display: none;
+}
